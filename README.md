@@ -33,6 +33,7 @@ You will see code something similler to the following:
         numberOfInputs=numberofinputs;
         init();
     }
+...
 
 
 ##Related Nagios Products:
