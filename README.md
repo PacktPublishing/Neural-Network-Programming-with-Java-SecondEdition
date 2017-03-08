@@ -17,16 +17,22 @@ All of the code is organized into folders. Each folder starts with number follow
 You will see code something similler to the following:
 
 ```
-  # needed for older Linux distributions such as Ubuntu 12 or Debian 7
-  WGET="wget --no-check-certificate"
-
-  # check if running as root
-  if [ "x`id -u`" != "x0" ] ; then
-    echo "This script is not being run as root."
-    echo "Please run it as root user by using either sudo or su command."
-    exit 1
-  fi
-```
+  # public class HiddenLayer extends NeuralLayer {
+    
+    /**
+     * HiddenLayer constructor
+     * 
+     * @param numberofneurons Number of neurons in this hidden layer
+     * @param iaf Activation Function for all neurons in this layer
+     * @param numberofinputs Number of inputs in this layer
+     * @see HiddenLayer
+     */
+    public HiddenLayer(int numberofneurons,IActivationFunction iaf,
+            int numberofinputs){
+        super(numberofneurons,iaf);
+        numberOfInputs=numberofinputs;
+        init();
+    }
 
 
 ##Related Nagios Products:
