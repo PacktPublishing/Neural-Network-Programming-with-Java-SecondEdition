@@ -10,7 +10,7 @@ You will first learn the basics of neural networks and their process of learning
 All the examples generated in the book are provided in the form of illustrative source code, which merges object-oriented programming (OOP) concepts and neural network features to enhance your learning experience.
 
 ##Instructions and Navigation
-All of the code is organized into folders, code files are available for Chapter 1, 2, 3, 4 and project file. Each folder starts with number followed by the application name. For example, Chapter 1. 
+All of the code is organized into folders, code files are available for Chapter 1, 2, 3, 4 and project file. For example, Chapter 1. 
 
 You will see code something similler to the following:
 
