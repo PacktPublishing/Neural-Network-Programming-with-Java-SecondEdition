@@ -1,7 +1,7 @@
 # Neural Network Programming with Java Second Edition
 This is the code repository for [Neural Network Programming with Java Second Edition](https://www.packtpub.com/big-data-and-business-intelligence/neural-network-programming-java-second-edition?utm_source=github&utm_medium=repository&utm_content=9781787126053) By Packt. It contains all the supporting project files necessary to work through the book from start to finish.
 
-# About the book
+## About the book
 
 Want to discover the current state-of-art in the field of neural networks that will let you understand and design new strategies to apply to more complex problems? This book takes you on a complete walkthrough of the process of developing basic to advanced practical examples based on neural networks with Java, giving you everything you need to stand out.
 
@@ -31,6 +31,9 @@ You will see code something similler to the following:
         numberOfInputs=numberofinputs;
         init();
     }
+### Note
+
+The NeuralNetWithJava_2nd.zip file should be in zip format as it contains the project.
 
 ## Related Neural Network Products:
 * [Neural Network Programming with Python](https://www.packtpub.com/big-data-and-business-intelligence/neural-network-programming-python?utm_source=github&utm_medium=repository&utm_content=9781784398217)
