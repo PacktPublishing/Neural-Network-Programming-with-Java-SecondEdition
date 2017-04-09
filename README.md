@@ -9,12 +9,12 @@ You will first learn the basics of neural networks and their process of learning
 
 All the examples generated in the book are provided in the form of illustrative source code, which merges object-oriented programming (OOP) concepts and neural network features to enhance your learning experience.
 
-##Instructions and Navigation
+## Instructions and Navigation
 All of the code is organized into folders, code files are available for Chapter 1, 2, 3, 4 and project file. For example, Chapter 1. 
 
 You will see code something similler to the following:
 
-
+```
      # public class HiddenLayer extends NeuralLayer {
     
     /**
@@ -31,11 +31,13 @@ You will see code something similler to the following:
         numberOfInputs=numberofinputs;
         init();
     }
+```
 ### Note
 
 The NeuralNetWithJava_2nd.zip file should be in zip format as it contains the project.
 
 ## Related Neural Network Products:
+
 * [Neural Network Programming with Python](https://www.packtpub.com/big-data-and-business-intelligence/neural-network-programming-python?utm_source=github&utm_medium=repository&utm_content=9781784398217)
 * [Learning Network Programming with Java](https://www.packtpub.com/application-development/learning-network-programming-java?utm_source=github&utm_medium=repository&utm_content=9781785885471)
 * [Boost.Asio C++ Network Programming - Second Edition](https://www.packtpub.com/networking-and-servers/boostasio-c-network-programming-second-edition?utm_source=github&utm_medium=repository&utm_content=9781785283079)
