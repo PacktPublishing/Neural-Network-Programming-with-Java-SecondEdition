@@ -26,6 +26,8 @@ public class Hebbian extends LearningAlgorithm {
     private ArrayList<Double> currentOutputMean;
     
     private ArrayList<Double> lastOutputMean;
+
+    private boolean UseBias = false;
     
    
     public Hebbian(NeuralNet _neuralNet){
@@ -93,7 +95,12 @@ public class Hebbian extends LearningAlgorithm {
                     else{
                         _ithInput=new ArrayList<>();
                         for(int i=0;i<trainingDataSet.numberOfRecords;i++){
-                            _ithInput.add(0.0);
+                            if(this.UseBias){
+                                _ithInput.add(1.0);
+                            }
+                            else{
+                                _ithInput.add(0.0);
+                            }
                         }
                     }
                     Double multResultIthInput=0.0;
@@ -314,6 +321,10 @@ public class Hebbian extends LearningAlgorithm {
         for(Double d:currentOutputMean){
             lastOutputMean.add(d);
         }
+    }
+
+    public setUseBias(boolean _useBias){
+        this.UseBias=_useBias;
     }
     
     
